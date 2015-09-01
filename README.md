@@ -2,7 +2,7 @@
 **4 Primitive Types**
  1. null  - Has only one value and is intentionally empty.  
    * _Example:_ var name = (null);
- 2. Boolean  - A value of true or false.   
+ 2. Boolean  - only has two values that equal either true or false.   
    * _Example:_ var name = (true);
  3. number  - 3.14159 is a ratio.  Whole numbers are integers.  
    * _Example:_ var name = (1);
@@ -11,11 +11,11 @@
  
 **Basic Operations**
   1. Arithmetic - Basic math operations such as multiplication, division, addition and subtraction.
-   * _Examples:_ 14 * 5  would return 70, 8 + 4 would return 12.
+   * _Examples:_ + ,/ , ,- ,* ,  14 * 5  would return 70, 8 + 4 would return 12.
   2. Comparison - Comparison operators always return a Boolean. 
-   * _Example:_ var name = (30); name > (25) would return true. var name = ('tom'); name == ('jerry');
+   * _Example:_ >, <, >=, var name = (30); name > (25) would return true. var name = ('tom'); name == ('jerry');
   3. Assignment - Assigns a value to the variable 
-   * _Example:_ var class = ('code');
+   * _Example:_  var, =,  var class = ('code');
  
 **Built in Constants**
  1. Undefined - A variable that has not been assigned a value would be Undefined. 
