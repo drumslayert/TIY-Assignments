@@ -9,12 +9,12 @@
   * Arithmetic - Basic math operations such as multiplication, division, addition and subtraction.
    _Examples:_ 14 * 5  would return 70, 8 + 4 would return 12.
   * Comparison - Comparison operators always return a Boolean. 
-  _Example:_ var color = 'red'; color == 'red' would return true
-  * assignment - Assigns a value to the variable var x = ('code');
+  _Example:_ var name = (30); name > (25) would return true. var name = ('tom'); name == ('jerry');
+  * assignment - Assigns a value to the variable _Example:_ var class = ('code');
  
 **Built in Constants**
- * Undefined - A variable that has not been assigned a value would be Undefined.
- * NaN -  Value of NaN is Not-A-Number. _Example:_  x = 30 / ('dave');
+ * Undefined - A variable that has not been assigned a value would be Undefined. _Example:_ Trey * 8 = undefined
+ * NaN -  Value of NaN is Not-A-Number. _Example:_  x = 30 / ('dave'); Would return a value of NaN
  * Infinity - Any positive number multiplied by Infinity is Infinity, and anything divided by Infinity is 0.
  _Example:_  Infinity * 8 returns Infinity 
 
