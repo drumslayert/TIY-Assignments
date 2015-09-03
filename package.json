@@ -1,0 +1,19 @@
+{
+  "name": "tiy-assignments",
+  "version": "0.0.0",
+  "description": "**4 Primitive Types**  1. `null`  - Has only one value and is intentionally empty.      * _Example:_ `var name = (null);`  2. `Boolean`  - only has two values that equal either `true` or `false`.       * _Example:_ `var name = (true);`  3. `number`  - 3.14159 is a ratio.  Whole numbers are integers.      * _Example:_ `var name = (1);`  4. `string`  - Is any text or a 'string' of text within single or double quotes.      * _Example:_ `var name = ('true');`",
+  "main": "Roaverspraket.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://drumslayert@github.com/drumslayert/TIY-Assignments.git"
+  },
+  "author": "Terry Calhoun @drumslayert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drumslayert/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/drumslayert/TIY-Assignments#readme"
+}
