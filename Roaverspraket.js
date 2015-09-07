@@ -70,6 +70,7 @@ function maxOfThree(A, B, C){
  * indicating whether the input is a vowel or not.
  */
 
+
 // What a cruel, cruel master you are...
 console.assert(isVowel(0)   === false);
 
@@ -112,7 +113,7 @@ function isVowel(char){
  * @return {String} cmmnt dsmvwld
  */
 function disemvowel(comment){
-  // YOUR CODE HERE
+  
 }
 
 // Shorter test cases might be appreciated...
