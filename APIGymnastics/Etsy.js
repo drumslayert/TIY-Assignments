@@ -21,18 +21,34 @@ test('finding the average price', function(){
   expect(yourAnswer).to.be.closeTo(23.63, 0.01);
 });
 
-function avererageprice(){
-  var i = items
-  for (i = 0; i =  ){
-    return items
-  }                       //I need help
+       //I need help
 
+var prices = [ ], item;
+ function foreachitem(index, length){
+   items.forEach(function)(item, index, all){
+     forEachItem(index, index + 1);
+   }
+
+
+
+//  for (var index = 0; index < items.length; index++)
+//  item = items[index]
+
+
+ // for (precondition; condition; postcondition){code;}
+
+{
+    // item = items[index];
+
+    //expect(item).to.be.an('object');
+    //expect(item.price).to.be.a('number');
+    //expect(item.price).to.be.equal(12);
+    // prices.push(item.price);
+
+     //expect(prices).to.deep.equal([12]);
 
 
 }
-
-
-
 
 test('finding that perfect $15 item', function(){
   /**
