@@ -10,8 +10,9 @@ test('this is the easy one', function(){
 
   expect(items.length).to.equal(25); // It's haunting me now...
 });
-function averageprice(){
-  var items["price"] 
+
+function items(){
+  return items.length
 }
 
 test('finding the average price', function(){
@@ -20,16 +21,34 @@ test('finding the average price', function(){
   expect(yourAnswer).to.be.closeTo(23.63, 0.01);
 });
 
+function avererageprice(){
+  var i = items
+  for (i = 0; i =  ){
+    return items
+  }                       //I need help
+
+
+
+}
+
+
+
+
 test('finding that perfect $15 item', function(){
   /**
    * @param {Array} items to search through
    * @return {Array} of `items` with `price` between `min` and `max` USD
    */
-  function pricedBetween(items, min, max){
-    var min = 14;
+
+  function pricedBetween(){
+    var items = new array()   //because I cant figure out how to get the average price, I cant figure out
+    var min = 14;             // how to test my code for this test
     var max = 18;
-    if (itmes >= min && itmes <= max) {
+    var i = items
+    for (i = 0; i >= min && i <= max; i++) {
       return items;
+    }
+  }
 
 
   expect( pricedBetween(items, 14, 18) ).to.deep.equal([
