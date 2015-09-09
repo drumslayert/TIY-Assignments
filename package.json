@@ -18,6 +18,6 @@
   "homepage": "https://github.com/drumslayert/TIY-Assignments#readme",
   "dependencies": {
     "chai": "^3.2.0",
-    "mocha": "^2.3.0"
+    "mocha": "^2.3.2"
   }
 }
