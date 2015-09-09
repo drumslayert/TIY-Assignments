@@ -11,9 +11,8 @@ test('this is the easy one', function(){
   expect(items.length).to.equal(25); // It's haunting me now...
 });
 function averageprice(){
-  var items["price"]
+  var items["price"] 
 }
-
 
 test('finding the average price', function(){
   var yourAnswer = "start with `items`; use `Array` methods";
@@ -27,8 +26,11 @@ test('finding that perfect $15 item', function(){
    * @return {Array} of `items` with `price` between `min` and `max` USD
    */
   function pricedBetween(items, min, max){
-    
-  }
+    var min = 14;
+    var max = 18;
+    if (itmes >= min && itmes <= max) {
+      return items;
+
 
   expect( pricedBetween(items, 14, 18) ).to.deep.equal([
     // Can you find their names _without_ code first?
