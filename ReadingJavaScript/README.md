@@ -213,33 +213,6 @@ It is fired after:
     beforeunload (cancellable event)
     pagehide
 
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <title>Parent Frame</title>
-        <script>
-          window.addEventListener('beforeunload', function(event) {
-            console.log('I am the 1st one.');
-          });
-          window.addEventListener('unload', function(event) {
-            console.log('I am the 3rd one.');
-          });
-        </script>
-      </head>
-      <body>
-        <iframe src="child-frame.html"></iframe>
-      </body>
-    </html>
-
-<<<<<<< HEAD
-    //Below, the content of child-frame.html:
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 53cd64e683f898b059ac5da65197ca389825cf4e
->>>>>>> master
-
         <!DOCTYPE html>
     <html>
       <head>
@@ -254,7 +227,7 @@ It is fired after:
         </script>
       </head>
       <body>
-          ☻
+
       </body>
     </html>
 
