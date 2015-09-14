@@ -231,7 +231,14 @@ It is fired after:
       </body>
     </html>
 
+<<<<<<< HEAD
     //Below, the content of child-frame.html:
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 53cd64e683f898b059ac5da65197ca389825cf4e
+>>>>>>> master
 
         <!DOCTYPE html>
     <html>
