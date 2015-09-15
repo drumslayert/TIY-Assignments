@@ -8,13 +8,13 @@
 // User Stories
 // I can add a task to my todo list so that I can remember to do it later.
 //
-//    I could use Array.Prototype.push to add a task at the end of my to do list.
+//    <input type="text" id="new_task"
 //
 //
 // I can edit a task on my todo list so that I can correct typos.
 //
 //
-//
+//    
 //
 //
 // I can mark a task as complete so that I remember that I have done it.
