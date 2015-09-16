@@ -1,0 +1,23 @@
+/**   in the h3 row li class>
+  *   ::before the hover the arrow color: #ddd
+  *   when the hover is active it turns color: #47a3da
+  *
+  *
+  */
+h3 {
+       color: #47a3da;
+       font-family: `Luto`, Calibri, Arial, sans-serif;
+       font-size: 40px;
+    }
+h4 {
+  color:#47a3da;
+  font-family: `Luto`, Calibri, Arial, sans-serif;
+  font-size: 25px
+
+}
+
+.cbp-ntcontent {
+   color:#B1A6A6;
+   font-family: `Luto`, Calibri, Arial, sans-serif;
+   font-size: 16px
+}
