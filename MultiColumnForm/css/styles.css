@@ -45,21 +45,3 @@ body {
   width: 391px;
   height: 25px;
 }
-.cbp-mc-form label {
-    display: block;
-    padding: 5px;
-    font-size: 14px;
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    text-transform: uppercase;
-
-}
-.cbp-mc-form input, .cbp-mc-form textarea, .cbp-mc-form select {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    line-height: 1.5;
-    width: 100%;
-    padding: 5px;
-    color: #fff;
-    font-size: 14px;
-    background: transparent;
-    border: 3px solid #fff;
-}
