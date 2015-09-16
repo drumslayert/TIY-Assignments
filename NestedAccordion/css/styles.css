@@ -4,20 +4,25 @@
   *
   *
   */
-h3 {
+.cbp-ntaccordion h3 {
+
        color: #47a3da;
        font-family: `Luto`, Calibri, Arial, sans-serif;
-       font-size: 40px;
-    }
-h4 {
+       font-size: 30pt;
+}
+.cbp-ntaccordion h3:before {
+    content: "\27b8";
+    color: inherit
+}
+.cbp-ntaccordion h3:hover:before {
+    content: "\27b7";
+    color: inherit
+}
+.cbp-ntaccordion h4 {
   color:#47a3da;
   font-family: `Luto`, Calibri, Arial, sans-serif;
-  font-size: 25px
+  font-size: 14pt;
 
 }
 
-.cbp-ntcontent {
-   color:#B1A6A6;
-   font-family: `Luto`, Calibri, Arial, sans-serif;
-   font-size: 16px
-}
+/* &#10140; */
