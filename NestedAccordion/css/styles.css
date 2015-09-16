@@ -9,8 +9,15 @@ h3 {
        font-family: `Luto`, Calibri, Arial, sans-serif;
        font-size: 40px;
     }
-  p {
-   color:#ddd
+h4 {
+  color:#47a3da;
+  font-family: `Luto`, Calibri, Arial, sans-serif;
+  font-size: 25px
+
+}
+
+.cbp-ntcontent {
+   color:#B1A6A6;
    font-family: `Luto`, Calibri, Arial, sans-serif;
    font-size: 16px
 }
