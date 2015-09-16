@@ -1,0 +1,65 @@
+
+.container  header {
+    width: 90%;
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 40px
+}
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #fff;
+    background: #47a3da;
+}
+.cbp-mc-column {
+    width: 244px;
+    height: 429px;
+    padding: 110px;
+    float: left;
+}
+.main {
+  max-width: 1430px;
+  height: 874px;
+  margin:auto;
+}
+#first_name, #last_name, #email {
+  width: 391px;
+  height: 49px;
+}
+#country {
+  width: 391px;
+  height: 25px;
+}
+#bio {
+  width: 391px;
+  height: 200px;
+}
+#phone {
+  width: 391px;
+  height: 49px;
+}
+#affiliations {
+  width: 391px;
+  height: 200px;
+}
+#occupation {
+  width: 391px;
+  height: 25px;
+}
+.cbp-mc-form label {
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    text-transform: uppercase;
+
+}
+.cbp-mc-form input, .cbp-mc-form textarea, .cbp-mc-form select {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    line-height: 1.5;
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+    background: transparent;
+    border: 3px solid #fff;
+}
