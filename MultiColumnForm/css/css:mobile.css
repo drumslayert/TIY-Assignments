@@ -1,9 +1,7 @@
 @media only screen and (max-device-width: 375px) {
-  border: none;
-  padding: 0;
-  width: 80%;
+  max-width: 375px;
   height: auto;
-  margin: 0 auto;
+  margin:auto;
 }
 
 body {
@@ -18,6 +16,10 @@ body {
   text-align:center;
   margin:auto;
 }
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #fff;
+    background: #47a3da;
 }
 .clearfix h1 {
   font-family: inherit;
@@ -29,16 +31,16 @@ header nav {
     text-align: center;
     display: block;
 }
-.bp-icon-prev::after {
+.bp-icon-prev:before {
     content: "\293d";
 }
-.bp-icon-next::after {
+.bp-icon-next:before {
     content: "\293d";
 }
-.bp-icon-drop::after {
+.bp-icon-drop:before {
     content: "\2940";
 }
-.bp-icon-archive::after {
+.bp-icon-archive:before {
     content: "\29ec";
 }
 .bp-icon-prev:hover:after {
@@ -60,7 +62,6 @@ header nav {
     clear:both;
     margin-top: 20px;
     margin-left: 75px;
-
 }
 .main {
   max-width:350;
