@@ -1,47 +1,138 @@
-
-.container  header {
-    width: 90%;
-    max-width: 1430px;
-    margin: 0 auto;
-    padding: 40px
-}
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #fff;
     background: #47a3da;
 }
+.clearfix h1 {
+  font-family: inherit;
+  font-size: 20pt;
+  float:center;
+
+}
+.container {
+  max-width: 375;
+  height: auto;
+  margin:auto;
+}
+header nav {
+    float: center;
+    text-align: center;
+    display: inline;
+}
+.bp-icon-prev:before {
+    content: "\293d";
+}
+.bp-icon-next:before {
+    content: "\293d";
+}
+.bp-icon-drop:before {
+    content: "\2940";
+}
+.bp-icon-archive:before {
+    content: "\29ec";
+}
+.bp-icon-prev:hover:after {
+    content: "\293e";
+}
+.bp-icon-next:hover:after {
+    content: "\293f";
+}
+.bp-icon-drop:hover:after {
+    content: "\2941";
+}
+.bp-icon-archive:hover:after {
+    content: "\29ed";
+}
+
+
+
+
+
 .cbp-mc-column {
     width: 244px;
     height: 429px;
     padding: 110px;
-    float: left;
-}
+    background: transparent;
+    float: center;
+    clear:both;
+} /*
 .main {
   max-width: 1430px;
   height: 874px;
   margin:auto;
 }
+.cbp-mc-form input, .cbp-mc-form textarea, .cbp-mc-form select {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    line-height: 18px;
+    font-size: 12pt;
+    padding: 5px 10px
+    color: #fff;
+    display: block;
+    width: 100%;
+    background: transparent;
+} */
 #first_name, #last_name, #email {
-  width: 391px;
-  height: 49px;
+  width: 380px;
+  height: 40px;
+  margin: 1px;
 }
 #country {
-  width: 391px;
+  width: 380px;
   height: 25px;
+  margin: 1px;
 }
 #bio {
-  width: 391px;
-  height: 200px;
+  width: 380px;
+  height: 175px;
+  margin: 1px;
 }
 #phone {
-  width: 391px;
-  height: 49px;
+  width: 380px;
+  height: 40px;
+  margin: 1px;
 }
 #affiliations {
-  width: 391px;
-  height: 200px;
+  width: 380px;
+  height: 175px;
+  margin: 1px;
 }
 #occupation {
-  width: 391px;
-  height: 25px;
+  width: 380px;
+  height: 30px;
+  margin: 1px;
+}
+#cat_name {
+  width: 380px;
+  height: 40px;
+  margin: 1px;
+}
+#gagdet {
+  width: 380px;
+  height: 40px;
+  margin: 1px;
+}
+#talent {
+  width: 380px;
+  height: 40px;
+  margin: 1px;
+}
+#drink {
+  width: 380px;
+  height: 40px;
+  margin: 1px;
+}
+#power {
+  width: 380px;
+  height: 40px;
+  margin: 1px;
+}
+#comments {
+  width: 380px;
+  height: 40px;
+  margin: 1px;
+}
+#drink {
+  width: 380px;
+  height: 175px;
+  margin: 1px;
 }
