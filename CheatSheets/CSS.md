@@ -115,7 +115,7 @@ This is different from visibility. Setting display to none will render the page 
 
 * Media queries are the most powerful tool for doing this. Let's take our layout that uses percent widths and have it display in one column when the browser is too small to fit the menu in the sidebar:
 
-    *@media screen and (min-width:600px) {
+    @media screen and (min-width:600px) {
       nav {
         float: left;
         width: 25%;
@@ -126,7 +126,7 @@ This is different from visibility. Setting display to none will render the page 
     }
     @media screen and (max-width:599px) {
       nav li {
-        display: inline;*
+        display: inline;
 
 * inline-block: You can create a grid of boxes that fills the browser width and wraps nicely. This has been possible for a long time using float, but now with inline-block it's even easier. inline-block elements are like inline elements but they can have a width and height. Let's look at examples of both approaches.
 
@@ -139,20 +139,20 @@ This is different from visibility. Setting display to none will render the page 
       margin: 1em;
     }
     .after-box {
-      clear: left*
+      clear: left
 * The Easy Way (using inline-block) You can achieve the same effect using the inline-block value of the display property.
 
-    *.box2 {
+    .box2 {
       display: inline-block;
       width: 200px;
       height: 100px;
-      margin: 1em;*
+      margin: 1em;
 
 * inline-block layout. You can also use inline-block for layouts. There are a few things to keep in mind:
 inline-block elements are affected by the vertical-align property, which you probably want set to top.
 You need to set the width of each column
 There will be a gap between the columns if there is any whitespace between them in the HTML
-    *nav {
+    nav {
       display: inline-block;
       vertical-align: top;
       width: 25%;
@@ -160,19 +160,74 @@ There will be a gap between the columns if there is any whitespace between them 
     .column {
       display: inline-block;
       vertical-align: top;
-      width: 75%;*
+      width: 75%;
 
 ###column
 
 * There is a new set of CSS properties that let you easily make multi-column text. Have a look:
 
-    *.three-column {
+    .three-column {
       padding: 1em;
       -moz-column-count: 3;
       -moz-column-gap: 1em;
       -webkit-column-count: 3;
       -webkit-column-gap: 1em;
       column-count: 3;
-      column-gap: 1em;*
+      column-gap: 1em;
 
 * CSS columns are very new, so you need to use the prefixes, and it won't work through IE9 or in Opera Mini.
+
+###fonts
+
+* The font CSS property is either a shorthand property for setting font-style, font-variant, font-weight, font-size, line-height and font-family, or a way to set the element's font to a system font, using specific keywords.
+  
+  * <'font-style'>: The font-style CSS property lets you select italic or oblique faces within a font-family.
+
+  * <'font-variant'>: The font-variant property acts as a shorthand for the longhand properties.
+
+  * <'font-weight'>: The font-weight CSS property specifies the weight or boldness of the font. Some fonts are only available in normal and bold.
+
+  * <'font-size'>: The font-size CSS property specifies the size of the font. Setting the font size may, in turn, change the size of other items, since it is used to compute the value of the em and ex 
+  <length> units. After reviewing in class though, Dave has sugested using point's = pt when refeing to font size.
+
+  * <'line-height'>: On block level elements, the line-height property specifies the minimum height of line boxes within the element. On non-replaced inline elements, line-height specifies the height that is used to calculate line box height. On replaced inline elements such as buttons or other input element, line-height has no effect. 
+
+  * <'font-family'>: The font-family CSS property lets you specify a prioritized list of font family names and/or generic family names for the selected element. Values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer or that can be downloaded using a @font-face at-rule.
+
+  ###text
+
+  * text-align: The text-align CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements itself, only their inline content.
+
+  * text-decoration: The text-decoration CSS property is used to set the text formatting to underline, overline, line-through or blink. Underline and overline decorations are positioned under the text, line-through over it.Text decorations draw across descendant elements. This means that it is not possible to disable on a descendant a text decoration that is specified on one of its ancestors. For example, in the markup: <p>This text has <em>some emphasized words</em> in it.</p>, the style rule: p { text-decoration: underline } would cause the entire paragraph to be underlined. The style rule: em { text-decoration: none } would not cause any change; the entire paragraph would still be underlined. However, the rule em { text-decoration: overline } would cause a second decoration to appear on "some emphasized words".
+
+  * text-transform: The text-transform CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized.
+
+  * text-shadow: The text-shadow property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and text-decorations of the element.
+
+  ###line
+
+  * The text-decoration-line CSS property sets what kind of line decorations are added to an element. Underline decorations are positioned under the text, overline decorations are positioned above the text, and line-through  decorations are positioned through the middle of the text.
+
+    * Examples: 
+      * /* Keyword values */
+      text-decoration-line: none;
+      text-decoration-line: underline;
+      text-decoration-line: overline;
+      text-decoration-line: line-through;
+      text-decoration-line: underline overline;                
+      text-decoration-line: overline underline line-through;
+      * /* Global values */
+      text-decoration-line: inherit;
+      text-decoration-line: initial;
+      text-decoration-line: unset;
+  
+  ###color
+
+  * The <color> CSS data type denotes a color in the sRGB color space. A color can be described in any of these ways:
+    using a keyword
+    using the RGB cubic-coordinate system (via the #-hexadecimal or the rgb() and rgba() functional notations)
+    using the HSL cylindrical-coordinate system (via the hsl() and hsla() functional notations)
+
+
+
+
