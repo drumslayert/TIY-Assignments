@@ -1,19 +1,26 @@
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #fff;
-    background: #47a3da;
+/*  border: none;
+  padding: 0;
+  width: 80%;
+  height: auto;
+*/  margin: 0 auto;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #fff;
+  background: #47a3da;
 }
 .clearfix h1 {
   font-family: inherit;
   font-size: 20pt;
   float:center;
 
-}
+} /*
 .container {
-  max-width: 375;
+  padding: 0;
+  border: none;
+  width: 80%;
   height: auto;
-  margin:auto;
-}
+  margin:0 auto;
+} */
 header nav {
     float: center;
     text-align: center;
@@ -55,11 +62,13 @@ header nav {
     background: transparent;
     float: center;
     clear:both;
-} /*
+}
 .main {
-  max-width: 1430px;
-  height: 874px;
-  margin:auto;
+  border: none;
+  padding: 0;
+  max-width: 80%;
+  height: auto;
+  margin:0 auto;
 }
 .cbp-mc-form input, .cbp-mc-form textarea, .cbp-mc-form select {
     font-family: 'Lato', Calibri, Arial, sans-serif;
@@ -70,7 +79,7 @@ header nav {
     display: block;
     width: 100%;
     background: transparent;
-} */
+}
 #first_name, #last_name, #email {
   width: 380px;
   height: 40px;
