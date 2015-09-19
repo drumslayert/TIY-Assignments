@@ -3,5 +3,22 @@
   "dependencies": {
     "todomvc-app-css": "^2.0.0",
     "todomvc-common": "^1.0.0"
-  }
+  },
+  "name": "todomvc",
+  "description": "> Template used for creating [TodoMVC](http://todomvc.com) apps",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TIY-Durahm/2015-FALL-FEE.git#readme"
+  },
+  "bugs": {
+    "url": "https://github.com/TIY-Durahm/2015-FALL-FEE/issues"
+  },
+  "homepage": "https://github.com/TIY-Durahm/2015-FALL-FEE/tree/readme#readme"
 }
