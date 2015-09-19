@@ -1,11 +1,12 @@
-@media only screen and (max-device-width: 375px) {
+
+@media screen and (max-device-width: 400px) {
   border: none;
   padding: 0;
-  width: 80%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
 }
-
+/*
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #fff;
@@ -53,15 +54,15 @@ header nav {
 .bp-icon-archive:hover:after {
     content: "\29ed";
 }
+*/
 .cbp-mc-column {
-    width: 250px;
-    height: 215px;
-    position:relative;
-    clear:both;
-    margin-top: 20px;
-    margin-left: 75px;
+  margin-top: 30px;
+  display: block;
+  vertical-align: middle;
+  width:33%;
 
 }
+/*
 .main {
   max-width:350;
   height:auto;
@@ -119,4 +120,4 @@ header nav {
 #drink {
   width: 250px;
   height: 100px;
-}
+} */
