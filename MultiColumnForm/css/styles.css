@@ -8,11 +8,12 @@ header span{
   font-size: 18pt;
   font-weight: 700;
   letter-spacing: 4px;
-
+  display: block;
 }
 .clearfix h1 {
   font-family: inherit;
   font-size: 25pt;
+  display: inline-block;
 }
 .container {
   padding: 0;
@@ -25,10 +26,13 @@ header span{
 header nav {
     text-decoration: none;
     text-align: center;
+    font-size: 0;
+    float:right;
 }
 .cbp-mc-form{
     display: inline-block;
     text-align: center;
+
 }
 .bp-icon-prev::after {
     content: "\293d";
@@ -60,6 +64,8 @@ header nav {
   vertical-align: middle;
   width:33%;
 }
+
+}
 .main {
   border: none;
   padding: 0;
@@ -84,6 +90,7 @@ input {
     color: #fff;
     border: 3px solid #fff;
     background: transparent;
+
 }
 #first_name, #last_name, #email {
   width: 380px;
