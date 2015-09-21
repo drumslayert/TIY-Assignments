@@ -1,0 +1,28 @@
+/**   in the h3 row li class>
+  *   ::before the hover the arrow color: #ddd
+  *   when the hover is active it turns color: #47a3da
+  *
+  *
+  */
+.cbp-ntaccordion h3 {
+
+       color: #47a3da;
+       font-family: `Luto`, Calibri, Arial, sans-serif;
+       font-size: 30pt;
+}
+.cbp-ntaccordion h3:before {
+    content: "\27b8";
+    color: inherit
+}
+.cbp-ntaccordion h3:hover:before {
+    content: "\27b7";
+    color: inherit
+}
+.cbp-ntaccordion h4 {
+  color:#47a3da;
+  font-family: `Luto`, Calibri, Arial, sans-serif;
+  font-size: 14pt;
+
+}
+
+/* &#10140; */
