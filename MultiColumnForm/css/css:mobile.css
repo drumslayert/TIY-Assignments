@@ -3,8 +3,6 @@
   border: none;
   padding: 0;
   width: 90%;
-  height: auto;
-  margin: 0 auto;
 }
 /*
 body {
@@ -19,6 +17,10 @@ body {
   text-align:center;
   margin:auto;
 }
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #fff;
+    background: #47a3da;
 }
 .clearfix h1 {
   font-family: inherit;
@@ -30,16 +32,16 @@ header nav {
     text-align: center;
     display: block;
 }
-.bp-icon-prev::after {
+.bp-icon-prev:before {
     content: "\293d";
 }
-.bp-icon-next::after {
+.bp-icon-next:before {
     content: "\293d";
 }
-.bp-icon-drop::after {
+.bp-icon-drop:before {
     content: "\2940";
 }
-.bp-icon-archive::after {
+.bp-icon-archive:before {
     content: "\29ec";
 }
 .bp-icon-prev:hover:after {
@@ -56,6 +58,7 @@ header nav {
 }
 */
 .cbp-mc-column {
+<<<<<<< HEAD
   margin-top: 30px;
   display: block;
   vertical-align: middle;
@@ -63,6 +66,14 @@ header nav {
   margin-left: 5%;
   margin-right: 5%;
 
+=======
+    width: 250px;
+    height: 215px;
+    position:relative;
+    clear:both;
+    margin-top: 20px;
+    margin-left: 75px;
+>>>>>>> 283b9d6d75b32bb833f28fefe8be8485064bf86d
 }
 /*
 .main {
