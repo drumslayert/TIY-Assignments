@@ -1,5 +1,5 @@
 body {
-<<<<<<< HEAD
+
   font-family: 'Lato', Calibri, Arial, sans-serif;
   color: #fff;
   background: #47a3da;
@@ -23,22 +23,6 @@ header span{
   height: auto;
   margin:0 auto;
   margin-top: 50px;
-=======
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #fff;
-    background: #47a3da;
-}
-.clearfix h1 {
-  font-family: inherit;
-  font-size: 20pt;
-  float:center;
-
-}
-.container {
-  max-width: 375;
-  height: auto;
-  margin:auto;
->>>>>>> 283b9d6d75b32bb833f28fefe8be8485064bf86d
 }
 header nav {
     text-decoration: none;
@@ -121,12 +105,7 @@ input {
     color: #fff;
     border: 3px solid #fff;
     background: transparent;
-<<<<<<< HEAD
-
-}
-=======
-} */
->>>>>>> 283b9d6d75b32bb833f28fefe8be8485064bf86d
+*/
 #first_name, #last_name, #email {
   width: 380px;
   height: 40px;
