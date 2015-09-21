@@ -1,0 +1,25 @@
+/*
+@media screen of (min-width: 0px) and (max-width: 480px)
+
+ul {
+padding: 0;
+border: none;
+width: 80%;
+height: auto;
+margin:0 auto;
+margin-left: 10%;
+margin-right: 10%;
+display: inline-block;
+}
+li {
+padding: 0;
+border: none;
+width: 50%;
+height: auto;
+margin:0 auto;
+display: block;
+text-align: center;
+vertical-align: top;
+margin-left: 1%;
+}
+*/
