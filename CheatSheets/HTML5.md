@@ -255,3 +255,61 @@ I found the followingsite to have some helpul things on html (http://www.instruc
   Sets off each menu item
   <textarea name="NAME" cols=40 rows=8>
   ```
+
+
+###form
+
+  * The HTML ```<form>``` element represents a document section that contains interactive controls to submit
+     information to a web server.
+
+     ```
+         <!-- Simple form which will send a GET request -->
+    <form action="">
+      <label for="GET-name">Name:</label>
+      <input id="GET-name" type="text" name="name">
+      <input type="submit" value="Save">
+    </form>
+
+    <!-- Simple form which will send a POST request -->
+    <form action="" method="post">
+      <label for="POST-name">Name:</label>
+      <input id="POST-name" type="text" name="name">
+      <input type="submit" value="Save">
+    </form>
+
+    <!-- Form with fieldset, legend, and label -->
+    <form action="" method="post">
+      <fieldset>
+        <legend>Title</legend>
+        <input type="radio" name="radio" id="radio"> <label for="radio">Click me</label>
+      </fieldset>
+    </form>
+    ```
+
+  ###input
+
+   * The HTML <input> element is used to create interactive controls for web-based forms in order to
+   accept data from the user. How an <input> works varies considerably depending on the value of its type attribute.
+   ```
+   <!-- A common form that includes input tags -->
+ <form action="getform.php" method="get">
+     <label>First name: <input type="text" name="first_name" /></label><br />
+      <label>Last name: <input type="text" name="last_name" /></label><br />
+         <label>E-mail: <input type="email" name="user_email" /></label><br />
+ <input type="submit" value="Submit" />
+ </form>
+   ```
+
+   ###label
+
+    * The HTML Label Element ```(<label>)``` represents a caption for an item in a user interface. It can be associated 
+      with a control either by placing the control element inside the <label> element, or by using the for attribute.
+      Such a control is called the labeled control of the label element.
+
+    ```
+    <label for="username">Click me</label>
+    <input type="text" id="username">
+    ```
+
+
+####This link is very helpful for to reference many different elements of html(https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Forms)
