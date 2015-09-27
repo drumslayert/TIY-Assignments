@@ -316,4 +316,56 @@ I found the following site to have some helpul things on html (http://www.instru
   </fieldset>
 </form>
 ```
+### table
 
+  * The HTML Table Element `(<table>)` represents data in two dimensions or more.
+    * elements that make up a table
+      * caption - provides a visual caption (a title or description) for the table
+      * col- defines a column within a table
+      * colgroup- defines a group of columns within a table
+      * table - defines a block of tabular data
+      * tbody - logically groups elements that make the body of a table’s content
+      * td - defines a standard data cell in a table
+      * tfoot - logically groups elements that comprise the footer area of a table’s content
+      * th - defines a header cell in a table
+      * thead - logically groups header elements in a table
+      * tr - defines a row in a table
+    * (http://www.sitepoint.com/web-foundations/table-elements/)
+    
+  * Examples of how a `table` is used:<br>
+  
+    ```
+    <table>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>Doe</td>
+    </tr>
+  </table>
+  ```
+  ```
+  <p>Table with thead, tfoot, and tbody</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Header content 1</th>
+        <th>Header content 2</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td>Footer content 1</td>
+        <td>Footer content 2</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td>Body content 1</td>
+        <td>Body content 2</td>
+      </tr>
+    </tbody>
+  </table>
+  ```
