@@ -1,0 +1,35 @@
+.headerArea {
+  padding: 2px;
+  width: 100%;
+  margin-right: 30px;
+  font: 'Lato', Calibri, Arial, sans-serif;
+  color: #47a3da;
+  font-size: 14pt;
+    span {
+      font-size: 18pt;
+      font-weight: 700;
+      letter-spacing: 4px;
+      display: block;
+    }
+      h1 {
+        font-size: 25pt;
+        display: inline-block;
+      }
+        nav {
+          text-decoration: none;
+          text-align: center;
+          float:right;
+        }
+}
+section {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: inherit;
+   h2, h3 {
+     color: #47a3da;
+   }
+     p {
+       color: #767676;
+     }
+}
