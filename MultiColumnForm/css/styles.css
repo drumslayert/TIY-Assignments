@@ -5,98 +5,37 @@ body {
   background: #47a3da;
 
 }
-header span{
-  font-size: 18pt;
-  font-weight: 700;
-  letter-spacing: 4px;
-  display: block;
-}
-.clearfix h1 {
-  font-family: inherit;
-  font-size: 25pt;
-  display: inline-block;
-}
-.container {
-  padding: 0;
-  border: none;
-  width: 90%;
-  height: auto;
-  margin:0 auto;
+section {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+/*  border: 1px red solid; */
   margin-top: 50px;
 }
-header nav {
-    text-decoration: none;
-    text-align: center;
-    font-size: 0;
-    float:right;
-}
-.cbp-mc-form{
-    display: inline-block;
-    text-align: center;
-
-}
-.bp-icon-prev::after {
-    content: "\293d";
-}
-.bp-icon-next::after {
-    content: "\293d";
-}
-.bp-icon-drop::after {
-    content: "\2940";
-}
-.bp-icon-archive::after {
-    content: "\29ec";
-}
-.bp-icon-prev:hover:after {
-    content: "\293e";
-}
-.bp-icon-next:hover:after {
-    content: "\293f";
-}
-.bp-icon-drop:hover:after {
-    content: "\2941";
-}
-.bp-icon-archive:hover:after {
-    content: "\29ed";
-}
-.cbp-mc-column {
-<<<<<<< HEAD
-  margin-top: 30px;
-  display: inline-block;
-  vertical-align: middle;
-  width:33%;
-}
-
-}
-.main {
-  border: none;
-  padding: 0;
-  max-width: 100%;
-  height: auto;
-  margin:0 auto;
-=======
-    width: 244px;
-    height: 429px;
-    padding: 110px;
-    background: transparent;
-    float: center;
-    clear:both;
-} /*
-.main {
-  max-width: 1430px;
-  height: 874px;
-  margin:auto;
->>>>>>> 283b9d6d75b32bb833f28fefe8be8485064bf86d
+.column {
+  width: 30%;
+  display:inline-block;
+  margin-top: 20px;
+/*  border: 1px red solid; */
+  padding: 10px;
+  vertical-align: top;
+  text-align: left;
 }
 label {
-  font-size: 15pt;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  display:block;
 }
-input {
-  font-size: 12pt;
-  color: #10689A;
+select {
+  display:block;
 }
+textarea {
+  display:block;
+}
+
+.input {
+  text-align: center;
+}
+
+/*
 #first_name, #last_name, #email, #country, #bio, #phone, #affiliations, #occupation, #cat_name, #gagdet, #power, #drink, #talent, #comments, #weapon, .cbp-mc-submit {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     line-height: 18px;
@@ -106,68 +45,3 @@ input {
     border: 3px solid #fff;
     background: transparent;
 */
-#first_name, #last_name, #email {
-  width: 380px;
-  height: 40px;
-  margin: 1px;
-}
-#country {
-  width: 380px;
-  height: 25px;
-  margin: 1px;
-}
-#bio {
-  width: 380px;
-  height: 175px;
-  margin: 1px;
-}
-#phone {
-  width: 380px;
-  height: 40px;
-  margin: 1px;
-}
-#affiliations {
-  width: 380px;
-  height: 175px;
-  margin: 1px;
-}
-#occupation {
-  width: 380px;
-  height: 30px;
-  margin: 1px;
-}
-#cat_name {
-  width: 380px;
-  height: 40px;
-  margin: 1px;
-}
-#gagdet {
-  width: 380px;
-  height: 40px;
-  margin: 1px;
-}
-#talent {
-  width: 380px;
-  height: 40px;
-  margin: 1px;
-}
-#drink {
-  width: 380px;
-  height: 40px;
-  margin: 1px;
-}
-#power {
-  width: 380px;
-  height: 40px;
-  margin: 1px;
-}
-#comments {
-  width: 380px;
-  height: 40px;
-  margin: 1px;
-}
-#weapon {
-  width: 380px;
-  height: 175px;
-  margin: 1px;
-}
