@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // inside of the <div id="cbp-vm" class="cbp-vm-switcher. Depending on which class you add
 // between cbp-vm-view-list and cbp-vm-view-grid. It calls the link with the view you
 // slected. Inside the <div class="cbp-vm-options"> whichever link adds in the cbp-vm-selcted
@@ -28,6 +29,7 @@ for (var i = 0; i < list.length; ++i){ //iterate over that list
 }//end if                        //this code partially works but I couldnt get it to switch back
 });//ending function
 }//ending for loop
+<<<<<<< HEAD
 */
 
 $('.cbp-vm-grid').click(function(){  //when there is a click on cbp-vm-grid do this!
@@ -37,3 +39,19 @@ $('.cbp-vm-grid').click(function(){  //when there is a click on cbp-vm-grid do t
     $('.cbp-vm-switcher ').addClass('.cbp-vm-view-grid'); // also add cbp-vm-view-grid to cbp-vm-switcher
     $('.cbp-vm-switcher ').removeClass('.cbp-vm-view-list');// and remove cbp-vm-view-list from cbp-vm-switcher
 });
+=======
+=======
+/*
+This is a lot more intense!!! This site is more about collecting information from
+the consumer as they click on items they potentially want to buy. So they remove
+items from one list and re-stack those items into another list of product they
+want to purchase. So we need a lot of functions here and my brain still hurting
+from spending several hours on the last one. :) It's after midnight, I will have
+to come back to this one with a clear head and energy. But you were giving us a
+little exposure in class today to this concept. When you were explaining the
+differences between a stack and a que. A consumer would be accessing these
+lists or dictionaries and unstacking and making a new list of items that they want
+to purchase. Then we need more funtions to calculate the price of all the items
+in the new list.  
+>>>>>>> origin/master/06--The-Temple-of-DOM
+>>>>>>> master
