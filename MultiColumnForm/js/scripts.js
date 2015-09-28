@@ -9,3 +9,17 @@
 // var from = textarea.addEventListener("keydown", function(){
 //     console.log(from)
 // });
+
+/*
+alert("is this working");//It works so I know it's linked up
+console.log($.submit);  // undefined
+*/
+
+/*
+$().click(function() {
+ $("#my-form").submit();
+});
+*/
+$("#my-form").submit(function(){
+       console.log()  // no luck yet
+  });

@@ -1,0 +1,48 @@
+.headerArea {
+  padding: 2px;
+  width: 100%;
+  font: 'Lato', Calibri, Arial, sans-serif;
+  color: #47a3da;
+  font-size: 14pt;
+}
+.hide {
+  display: none;
+}
+.headerArea span {
+  font-size: 18pt;
+  font-weight: 700;
+  letter-spacing: 4px;
+  display: block;
+}
+
+.headerArea h1 {
+  font-size: 25pt;
+  display: inline-block;
+}
+
+.headerArea nav {
+  text-decoration: none;
+  text-align: center;
+  float: right;
+}
+
+section {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: inherit;
+}
+
+section h2, section h3 {
+  color: #47a3da;
+
+}
+
+section p {
+  color: #767676;
+}
+
+h2{
+  border-bottom: 1px inset lightgrey;
+  padding-bottom: 10px;
+}

@@ -16,6 +16,8 @@
 //   }
 // }
 
+/*
+
 var list = document.querySelectorAll(".cbp-vm-options");//make a list of cbp-vm-options
 for (var i = 0; i < list.length; ++i){ //iterate over that list
   list[i].addEventListener("click", function(){//take every cbp-vm-options in that list and add a listener to it
@@ -24,9 +26,20 @@ for (var i = 0; i < list.length; ++i){ //iterate over that list
   } else if(this.parentNode.className==".cbp-vm-view-grid"){// otherwise do the oppsoite
     this.parentNode.className=".cbp-vm-view-list";
   //alert("click");
-}//end if                        //this code partially works but I couldnt get it to switch back 
+}//end if                        //this code partially works but I couldnt get it to switch back
 });//ending function
 }//ending for loop
+<<<<<<< HEAD
+*/
+
+$('.cbp-vm-grid').click(function(){  //when there is a click on cbp-vm-grid do this!
+  //  alert("grid selested");
+    $('.cbp-vm-icon.cbp-vm-grid').addClass('.cbp-vm-selected'); // add class cbp-vm-selected to cbp-vm-icon and cbp-vm-grid
+    $('.cbp-vm-icon.cbp-vm-list').removeClass('.cbp-vm-selected');// also remove cbp-vm-selected from cbp-vm-icon cbp-vm-list
+    $('.cbp-vm-switcher ').addClass('.cbp-vm-view-grid'); // also add cbp-vm-view-grid to cbp-vm-switcher
+    $('.cbp-vm-switcher ').removeClass('.cbp-vm-view-list');// and remove cbp-vm-view-list from cbp-vm-switcher
+});
+=======
 =======
 /*
 This is a lot more intense!!! This site is more about collecting information from
@@ -41,3 +54,4 @@ lists or dictionaries and unstacking and making a new list of items that they wa
 to purchase. Then we need more funtions to calculate the price of all the items
 in the new list.  
 >>>>>>> origin/master/06--The-Temple-of-DOM
+>>>>>>> master
