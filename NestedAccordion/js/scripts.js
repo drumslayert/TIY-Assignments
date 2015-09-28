@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 /* SO after inspecting all the different elements inside the hmtl and seeing how
 this is laid out, theres one big div class="main" container wraping this entire accordian.
