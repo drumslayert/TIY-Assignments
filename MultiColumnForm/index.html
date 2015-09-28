@@ -9,10 +9,14 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/scripts.js"></script>
+        <script src="js/plugins.js"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -26,7 +30,7 @@
           <nav></nav>
         </section>
         <section>
-        				<form>
+        				<form id="my-form">
         					<div class="column">
         						<label for="first_name">First Name:</label>
         	  					<input type="text" id="first_name">
@@ -69,17 +73,13 @@
                     <textarea id="comments"></textarea>
                   </div>
                   <div class=input>
-                    <input type="submit">
+                    <input type="submit" value="submit" id="submit">
                   </div>
         				</form>
         </section>
         <!-- Add your site or application content here -->
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
