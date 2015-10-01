@@ -21,5 +21,5 @@ $().click(function() {
 });
 */
 $("#my-form").submit(function(){
-       console.log()
+       console.log()  // no luck yet
   });
