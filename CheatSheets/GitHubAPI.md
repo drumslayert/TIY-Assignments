@@ -105,3 +105,22 @@ What fields are included in each result?
 What are the data types for each field?
 
 What are some of the different values for the type field?
+
+
+###How can I use the jQuery API to...
+
+ * get the HTML contents of an element?  
+  * In an HTML document, .html() can be used to get the contents of any element.
+   `$( "selector" ).html();`
+
+ * create a new HTML element?
+   with the .add selctor you can create a new jQuery object with elements added to the set of matched elements.
+   `.add(html)`
+   
+ * add an HTML element to the page?
+
+###How can I use the Lodash API to...
+
+###replace placeholders with values from an object?
+
+###repeat code for every item of an array?
