@@ -1,0 +1,25 @@
+{
+  "name": "SlideOutMenu",
+  "version": "0.0.0",
+  "homepage": "https://github.com/drumslayert/TIY-Assignments",
+  "authors": [
+    "drumslayert <ddc@terrymcalhoun.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "modernizr": "~3.1.0",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
