@@ -1,0 +1,20 @@
+{
+  "name": "reponsivegrid",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "bs": "browser-sync start --server --startPath 'index.html' --files='index.html, js/*.js, css/*.css'",
+    "sass": "node-sass --output-style expanded scss/*.scss css/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "'https://github.com/drumslayert/TIY-Assignments'"
+  },
+  "author": "Terry Calhoun",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.9.10"
+  }
+}
