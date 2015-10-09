@@ -1,3 +1,50 @@
 @import "grid";
 @import "mobile";
 @import "tablet";
+
+body{
+  background: #fff;
+
+}
+.main-header {
+  height: 130px;
+  color: #47a3da;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: 'Lato', sans-serif;
+}
+ a {
+  margin: 3.5em 3.5em;
+  color: #fff;
+
+}
+
+
+.sliders {
+  width: 100%;
+  height: 50px;
+  background-color: #47a3da;
+  padding-top: 18px;
+  font-size: 14pt;
+}
+section {
+  display: none;
+}
+section.active {
+  display: inherit;
+}
+div {
+  width:16%;
+  transition: opacity 0.2s;
+  border-right: 1px solid lightgrey;
+  display: inline-block;
+  color: #a2a2a2;
+  text-align: center;
+  :after {
+    content: '';
+    position: absolute;
+  }
+}
+#lovely {
+  text-align: center;
+}
