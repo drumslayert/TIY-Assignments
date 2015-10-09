@@ -98,7 +98,8 @@ textarea {
 
 @import 'grid';
 @import 'mobile';
-@import 'tablet';
+@media(max-width: 450px) {@import 'tablet';}
+
 
 
 
