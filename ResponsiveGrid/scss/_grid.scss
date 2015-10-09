@@ -1,36 +1,90 @@
-body {
-  // background-color: lightgray;
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
+
+
+
+header {
+  width: 90%;
+  margin: 0 10%;
+  margin-top: 30px;
+  color: #47a3da;
+  height: 150px;
+  padding-top: 30px;
+  // padding-left: 40px;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  span {
+    letter-spacing: 0.5em;
+  }
 }
 
-// header {
-//   width: 100%;
-//   margin-top: 30px;
-//   color: #47a3da;
-//   height: 150px;
-//   padding-top: 30px;
-//   padding-left: 60px;
-// }
-main {
-  // background-color: gray;
-}
 section{
   width: 100%;
-// background: gray;
-margin-right: 0;
+  margin-right: 0;
+  div {
+  // background-color: lightgray;
+  float:left;
+  width: 16.5%;
+    a img {
+      display: block;
+      width: 100%;
+      position: relative;
+    }
+  }
+      h3 {
+       display: none;
+      }
+
 
 }
-div {
-background-color: lightgray;
-float:left;
-width: 16.5%;
-a img {
-  display: block;
-  width: 100%;
-}
+ a img:hover {
+ background-color: #B3D4FB;
+   h3 {
+     position: absolute;
+     display: block;
+     left: 20px;
+     top: 20px;
+     right: 20px;
+     bottom: 20px;
+     text-align: center;
+   }
 }
 
+// media-queries
 @media(max-width: 1200px){
   div{
     width: 20%;
+  }
+}
+@media(max-width: 900px){
+  div{
+    width: 25%;
+    }
+    header {
+      text-align: center;
+    }
+}
+@media(max-width: 650px){
+  div{
+    width: 33%;
+  }
+  header {
+    text-align: center;
+  }
+}
+@media(max-width: 400px){
+  div{
+    width: 50%;
+  }
+  header {
+    text-align: center;
+  }
+}
+@media(max-width: 300px){
+  div{
+    width: 100%;
+  }
+  header {
+    text-align: center;
   }
 }
