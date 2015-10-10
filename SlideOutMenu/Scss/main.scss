@@ -2,7 +2,7 @@
 
 @import "grid";
 @import "mobile";
-@import "tablet";
+@import 'tablet';
 
 body {
   background: #fff;
@@ -10,15 +10,15 @@ body {
 .main-header {
   height: 130px;
   color: #47a3da;
-  padding-top: 30px;
-  padding-left: 30px;
+  padding: 20px;
   font-family: 'Lato', sans-serif;
-  width: 90%;
-  margin: 0 10%;
-  margin-top: 30px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   color: #47a3da;
-  height: 150px;
+  height: 120px;
   text-align: left;
+  display: block;
   span {
     letter-spacing: 0.5em;
   }
@@ -52,7 +52,7 @@ section {
   display: none;
 }
 section.active {
-  display: inherit;
+  display: block;
 
 }
 div {
@@ -62,6 +62,9 @@ div {
   display: block;
   color: #a2a2a2;
   text-align: center;
+  img:hover {
+  opacity: 0.5;
+}
 }
 #fine{
   float: none;
