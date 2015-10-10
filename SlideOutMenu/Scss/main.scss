@@ -1,10 +1,11 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
+
 @import "grid";
 @import "mobile";
 @import "tablet";
 
-body{
+body {
   background: #fff;
-
 }
 .main-header {
   height: 130px;
@@ -12,39 +13,96 @@ body{
   padding-top: 30px;
   padding-left: 30px;
   font-family: 'Lato', sans-serif;
+  width: 90%;
+  margin: 0 10%;
+  margin-top: 30px;
+  color: #47a3da;
+  height: 150px;
+  text-align: left;
+  span {
+    letter-spacing: 0.5em;
+  }
 }
- a {
-  margin: 3.5em 3.5em;
-  color: #fff;
-
-}
-
 
 .sliders {
   width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
   height: 50px;
   background-color: #47a3da;
   padding-top: 18px;
   font-size: 14pt;
+  .sliders::before{
+    content: "fa fa-sort-desc";
+  }
+  a {
+   color: #fff;
+   float: left;
+   display: block;
+   width: 18%;
+   margin-left: 5px;
+   margin-right: 5px;
+  }
+  a:hover {
+    color: #02639d;
+  }
 }
+
 section {
   display: none;
 }
 section.active {
   display: inherit;
+
 }
 div {
-  width:16%;
-  transition: opacity 0.2s;
+  width:16.5vw;
+  float: left;
   border-right: 1px solid lightgrey;
-  display: inline-block;
+  display: block;
   color: #a2a2a2;
   text-align: center;
-  :after {
-    content: '';
-    position: absolute;
-  }
+}
+#fine{
+  float: none;
+  margin-left: 30%
 }
 #lovely {
   text-align: center;
+}
+
+// media-queries
+@media(max-width: 864px){
+  a {
+    display: block;
+  }
+  div{
+    width: 33%;
+  }
+  .main-header {
+    text-align: center;
+  }
+}
+@media(max-width: 580px){
+  a {
+    display: block;
+  }
+  div{
+    width: 48%;
+  }
+  .main-header {
+    text-align: center;
+  }
+}
+
+@media(max-width: 500px){
+  a {
+    display: block;
+  }
+  div{
+    width: 100%;
+  }
+  .main-header {
+    text-align: center;
+  }
 }
