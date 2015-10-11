@@ -21,9 +21,58 @@ body {
   display: block;
   overflow: auto;
   span {
+    float: inherit;
     letter-spacing: 0.5em;
+    display: block;
+  }
+  h1 {
+    float: left;
+  }
+  .header-nav {
+    float: right;
+    padding-top: 25px;
+    a {
+       color: inherit;
+       text-decoration: none;
+       padding: 3px;
+
+
+    }
+    #chrome::before {
+      content: "\f268";
+      font-family: fontawesome;
+      font-size: 25pt;
+      }
+    #fox::before {
+      content: "\f269";
+      font-family: fontawesome;
+      font-size: 25pt;
+    }
+    #safari::before {
+      content: "\f267";
+      font-family: fontawesome;
+      font-size: 25pt;
+    }
+    #registered::before {
+      content: "\f25d";
+      font-family: fontawesome;
+      font-size: 25pt;
+    }
   }
 }
+#chrome:hover {
+  color: #02639d;
+}
+#fox:hover {
+  color: #02639d;
+}
+#safari:hover {
+  color: #02639d;
+}
+#registered:hover {
+  color: #02639d;
+}
+
 .sliders {
 
   min-height: 50px;
