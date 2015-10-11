@@ -1,3 +1,124 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
+
 @import "grid";
 @import "mobile";
-@import "tablet";
+@import 'tablet';
+
+body {
+  background: #fff;
+}
+.wrap {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.main-header {
+  min-height: 130px;
+  color: #47a3da;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #47a3da;
+  text-align: left;
+  display: block;
+  overflow: auto;
+  span {
+    letter-spacing: 0.5em;
+  }
+}
+.sliders {
+
+  min-height: 50px;
+  background-color: #47a3da;
+  display: block;
+  overflow: auto;
+  a {
+   color: #fff;
+   float: left;
+   display: block;
+   font-size: 14pt;
+   padding: 20px 35px;
+   text-decoration: none;
+  }
+  a:hover {
+    color: #02639d;
+  }
+  li {
+    display: inline-block;
+    list-style: none;
+  }
+}
+section {
+  display: none;
+}
+section.active {
+  display: block;
+}
+.main-content {
+  width: 100%;
+  background-color: #F7F7F7;
+  display: block;
+  overflow: auto;
+div {
+  width:16.5vw;
+  float: left;
+  border-right: 1px solid lightgrey;
+  display: block;
+  color: #a2a2a2;
+  text-align: center;
+  margin: 25px 0;
+    img:hover {
+    opacity: 0.5;
+    }
+ }
+}
+#fine{
+  float: none;
+  margin-left: 30%
+}
+#lovely {
+  text-align: center;
+}
+
+// media-queries
+@media(max-width: 990px){
+  .sliders  a {
+      font-size: 12pt;
+    }
+}
+
+@media(max-width: 905px){
+.sliders  a {
+    font-size: 12pt;
+    clear: both;
+    float: none;
+    text-align: center;
+  }
+  .main-content div{
+    width: 33%;
+  }
+  .main-header {
+    text-align: center;
+  }
+}
+@media(max-width: 580px){
+  a {
+    display: block;
+  }
+  .main-content div{
+    width: 48%;
+  }
+  .main-header {
+    text-align: center;
+  }
+}
+
+@media(max-width: 500px){
+  a {
+    display: block;
+  }
+  .main-content div{
+    width: 100%;
+  }
+  .main-header {
+    text-align: center;
+  }
+}

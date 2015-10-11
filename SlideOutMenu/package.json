@@ -1,17 +1,20 @@
 {
   "name": "slideoutmenu",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": " mocha",
     "bs": "browser-sync start --server --startPath 'index.html' --files='index.html, js/*.js, css/*.css'",
-    "sass": "node-sass --output-style expanded Scss/*.scss css/*.css",
+    "sass": "node-sass --output-style expanded scss/main.scss css/main.css"
   },
   "repository": {
     "type": "git",
     "url": "'https://github.com/drumslayert/TIY-Assignments'"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.9.10"
+  }
 }

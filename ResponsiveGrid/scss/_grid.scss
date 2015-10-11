@@ -1,0 +1,103 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
+
+
+
+header {
+  width: 90%;
+  margin: 0 10%;
+  margin-top: 30px;
+  color: #47a3da;
+  height: 150px;
+  padding-top: 30px;
+  // padding-left: 40px;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  span {
+    letter-spacing: 0.5em;
+  }
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  li {
+  float:left;
+  width: 16.5%;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+
+   div {
+     opacity: 0;
+     position: absolute;
+     align-items: center;
+     background: rgba(71, 163, 218, 0.2);
+     top: 20px;
+     bottom: 20px;
+     left: 20px;  // This adds padding to the rgba backgound
+     right: 20px;
+     color: #fff;
+     font-size: 16pt;
+     padding-left: 30px;
+     padding-top: 120px;
+    }
+    img {
+      display: block;
+      width: 100%;
+    }
+    a {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+ul li a:hover div {opacity: 1;}
+
+h3 {
+
+}
+
+//.hover {
+//  background-color:rgba(0,0,255,0.3);
+//}
+
+// media-queries
+@media(max-width: 1200px){
+ul  li {
+    width: 20%;
+  }
+}
+@media(max-width: 900px){
+ul  li{
+    width: 25%;
+    }
+    header {
+      text-align: center;
+    }
+}
+@media(max-width: 650px){
+ul  li{
+    width: 33%;
+  }
+  header {
+    text-align: center;
+  }
+}
+@media(max-width: 400px){
+ul  li{
+    width: 50%;
+  }
+  header {
+    text-align: center;
+  }
+}
+@media(max-width: 300px){
+ul  li{
+    width: 100%;
+  }
+  header {
+    text-align: center;
+  }
+}
