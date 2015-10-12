@@ -1,5 +1,4 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
-
 @import "grid";
 @import "mobile";
 @import 'tablet';
@@ -37,29 +36,28 @@ body {
        padding: 3px;
        display: inline-block;
        font-size: 25pt;
-
-    }
-    #chrome::before {
-      content: "\f268";
-      font-family: fontawesome;
-      // font-size: 25pt;
+     }
+      #chrome::before {
+        content: "\f268";
+        font-family: fontawesome;
+        // font-size: 25pt;
+        }
+      #fox::before {
+        content: "\f269";
+        font-family: fontawesome;
+        // font-size: 25pt;
       }
-    #fox::before {
-      content: "\f269";
-      font-family: fontawesome;
-      // font-size: 25pt;
-    }
-    #safari::before {
-      content: "\f267";
-      font-family: fontawesome;
-      // font-size: 25pt;
-    }
-    #registered::before {
-      content: "\f25d";
-      font-family: fontawesome;
-      // font-size: 25pt;
-    }
-  }
+      #safari::before {
+        content: "\f267";
+        font-family: fontawesome;
+        // font-size: 25pt;
+      }
+      #registered::before {
+        content: "\f25d";
+        font-family: fontawesome;
+        // font-size: 25pt;
+      }
+   }
 }
 #chrome:hover {
   color: #02639d;
@@ -73,9 +71,7 @@ body {
 #registered:hover {
   color: #02639d;
 }
-
 .sliders {
-
   min-height: 50px;
   background-color: #47a3da;
   display: block;
@@ -115,9 +111,9 @@ div {
   color: #a2a2a2;
   text-align: center;
   margin: 25px 0;
-    img:hover {
-    opacity: 0.5;
-    }
+  img:hover {
+  opacity: 0.5;
+  }
  }
 }
 #fine{
@@ -156,13 +152,10 @@ div {
   .main-header h1 {
     float: none;
   }
-
 }
 @media(max-width: 580px){
   a {
     display: block;
-    // float:left;
-    // border-bottom: 1px solid #fff;
   }
   .main-header .header-nav {
       display: block;
@@ -184,8 +177,6 @@ div {
 @media(max-width: 500px){
   a {
     display: block;
-
-    // border-bottom: 1px solid #fff;
   }
   .main-content div{
     width: 100%;
