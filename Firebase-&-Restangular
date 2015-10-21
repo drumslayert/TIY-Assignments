@@ -1,0 +1,46 @@
+   **Firebase REST API**
+    * What operations does the Firebase REST API support?
+      * Sending standard HTTPS requests you can write data to a Firebase reference with a PUT request and you 
+      can issue an HTTP GET request to the same endpoint to read the data you saved.
+    
+    * Do I need to authenticate with Firebase to read or create data?
+      * From what I understand about it so far, your working through and admin interface and once your an admin, 
+      it seems you only need to authenticate your users in your app not to simply read or create data.
+    
+    * What format does Firebase expect data to be in?
+      * Json data, an object!
+    
+   **Restangular**
+    * How do I configure a REST-ful API like Github?
+      * you can use the withConfig method in the restangular service.
+    
+    
+    * How would I request a list of...
+      * ...Repos for the class Org?
+        * GET https://api.github.com/orgs/TIY-Durham/repos
+      
+      * ...Issues for the class Repo?
+        * GET /repos/:owner/:repo/issues
+        
+      * ...Issues for a specific Milestone?
+        * GET /repos/:owner/:repo/milestones/:number
+      
+   
+   
+   **`ngRouter`**
+    * How do I define...
+     
+      * ...a route for my application with `ngRouter`?
+      
+      * ...dynamic pieces (params) to routes?
+      
+      * ...the template to load for a route?
+      
+      * ...the controller to trigger for a route?
+      
+      
+    * How do I retrieve...
+    
+      * ...the params from a route in a controller?
+      
+      * ...the controller for a route in the view?
