@@ -111,6 +111,10 @@ textarea {
 .main-header h1 {
   float: left;
 }
+.main-header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .main-header .header-nav {
   float: right;
