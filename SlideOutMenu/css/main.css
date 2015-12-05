@@ -1,0 +1,223 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
+@media (max-width: 580px) {
+  a {
+    display: block;
+  }
+  div {
+    width: 48%;
+  }
+  .main-header {
+    text-align: center;
+  }
+}
+
+body {
+  background: #fff;
+}
+
+.wrap {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.main-header {
+  min-height: 130px;
+  color: #47a3da;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #47a3da;
+  text-align: left;
+  display: block;
+  overflow: auto;
+}
+
+.main-header span {
+  float: inherit;
+  letter-spacing: 0.5em;
+  display: block;
+}
+
+.main-header h1 {
+  float: left;
+}
+
+.main-header .header-nav {
+  float: right;
+  padding-top: 22px;
+}
+
+.main-header .header-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 3px;
+  display: inline-block;
+  font-size: 25pt;
+}
+
+.main-header .header-nav #chrome::before {
+  content: "\f268";
+  font-family: fontawesome;
+}
+
+.main-header .header-nav #fox::before {
+  content: "\f269";
+  font-family: fontawesome;
+}
+
+.main-header .header-nav #safari::before {
+  content: "\f267";
+  font-family: fontawesome;
+}
+
+.main-header .header-nav #registered::before {
+  content: "\f25d";
+  font-family: fontawesome;
+}
+
+#chrome:hover {
+  color: #02639d;
+}
+
+#fox:hover {
+  color: #02639d;
+}
+
+#safari:hover {
+  color: #02639d;
+}
+
+#registered:hover {
+  color: #02639d;
+}
+
+.sliders {
+  min-height: 50px;
+  background-color: #47a3da;
+  display: block;
+  overflow: auto;
+}
+
+.sliders a {
+  color: #fff;
+  float: left;
+  display: block;
+  font-size: 14pt;
+  padding: 20px 35px;
+  text-decoration: none;
+}
+
+.sliders a:hover {
+  color: #02639d;
+}
+
+.sliders li {
+  display: inline-block;
+  list-style: none;
+}
+
+section {
+  display: none;
+}
+
+section.active {
+  display: block;
+}
+
+.main-content {
+  width: 100%;
+  background-color: #F7F7F7;
+  display: block;
+  overflow: auto;
+}
+
+.main-content div {
+  width: 16.5vw;
+  float: left;
+  border-right: 1px solid lightgrey;
+  display: block;
+  color: #a2a2a2;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.main-content div img:hover {
+  opacity: 0.5;
+}
+
+#fine {
+  float: none;
+  margin-left: 30%;
+}
+
+#lovely {
+  text-align: center;
+}
+
+@media (max-width: 990px) {
+  .sliders a {
+    font-size: 12pt;
+  }
+}
+
+@media (max-width: 905px) {
+  .sliders a {
+    font-size: 12pt;
+    clear: both;
+    float: none;
+    text-align: center;
+  }
+  .main-content div {
+    width: 33%;
+  }
+  .main-header {
+    text-align: center;
+  }
+  .main-header .header-nav {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+  }
+  .main-header h1 {
+    float: none;
+  }
+}
+
+@media (max-width: 580px) {
+  a {
+    display: block;
+  }
+  .main-header .header-nav {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+  }
+  .main-header h1 {
+    float: none;
+  }
+  .main-content div {
+    width: 48%;
+  }
+  .main-header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  a {
+    display: block;
+  }
+  .main-content div {
+    width: 100%;
+  }
+  .main-header {
+    text-align: center;
+  }
+  .main-header h1 {
+    float: none;
+  }
+  .main-header .header-nav a {
+    font-size: 18pt;
+  }
+}
